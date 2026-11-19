@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /api/
+Disallow: /docs
+Disallow: /redoc
+Disallow: /openapi.json
+Disallow: /static/
+Sitemap: https://pdf-toolkit.glitter.kr/sitemap.xml

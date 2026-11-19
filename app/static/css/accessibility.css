@@ -1,0 +1,27 @@
+.site-header p,
+.section-heading p,
+.editor-help,
+.content-text-dialog p {
+  color: #5f6d84;
+}
+
+.version {
+  color: #4b6590;
+}
+
+.drop-zone {
+  border-color: #637aa5;
+}
+
+.drop-zone:focus-visible,
+.nav-button:focus-visible,
+button:focus-visible,
+.page-card:focus-within,
+#content-canvas:focus-visible,
+.content-text-dialog textarea:focus-visible {
+  outline-color: #4267ad;
+}
+
+.page-card {
+  border-color: #637aa5;
+}
