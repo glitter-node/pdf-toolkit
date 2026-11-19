@@ -1,25 +1,28 @@
 # Installing and Running PDF Toolkit with an AI Agent
 
-I would like to install the following GitHub project on my Windows PC and run it locally.
+I would like to install the following GitHub project on my local computer and run it locally.
 
 **GitHub Repository:** https://github.com/glitter-node/pdf-toolkit
 
 ## Installation Request
 
-First, read the repository's `README.md`, `docs/WINDOWS_AUTOSTART.md`, and `AGENTS.md` to understand the project structure and installation requirements.
+First, check my computer's operating system, system architecture, Python installation status, and available environment.
 
-Check my PC's operating system and Python installation status. Then, download the project, create a Python virtual environment, and install the required dependencies.
+Read the repository's `README.md` and `AGENTS.md`, along with any relevant platform-specific installation and auto-start documentation, to understand the project structure and installation requirements.
+
+Based on the detected environment, download the project, create a dedicated Python virtual environment, and install the required dependencies.
 
 Next, run PDF Toolkit at `127.0.0.1:8013` and verify that the application is accessible through a web browser and that its PDF processing features work correctly.
 
-Once the application is running successfully, help me configure Windows Task Scheduler to start PDF Toolkit automatically when I sign in to Windows.
+Once the application is running successfully, help me configure automatic startup using the appropriate mechanism supported by my operating system.
 
 ## Requirements and Precautions
 
 - Install the application without Docker, Nginx, Apache, or a separate database server, as these are not required for local operation.
-- Keep the default binding address so the application is accessible only from the local PC.
+- Keep the default binding address so the application is accessible only from the local computer.
 - Do not delete or overwrite existing project files, user documents, or configuration settings without my permission.
 - Use a dedicated Python virtual environment to avoid interfering with existing Python installations.
+- Follow the installation and configuration procedures appropriate for the detected operating system and system architecture.
 - If an error occurs during installation, analyze the cause and provide appropriate troubleshooting steps.
 - Ask for my confirmation before making changes that require administrator privileges or modifying existing system settings.
 - If you cannot perform a task directly, provide clear commands and step-by-step instructions that I can follow manually.
@@ -28,11 +31,12 @@ Once the application is running successfully, help me configure Windows Task Sch
 
 After completing the installation, provide a summary of the following:
 
-1. Project installation directory
-2. Python version and virtual environment location
-3. PDF Toolkit access URL
-4. Browser accessibility and PDF processing test results
-5. Windows Task Scheduler auto-start configuration status
-6. Any remaining issues or items requiring additional verification
+1. Detected operating system and system architecture
+2. Project installation directory
+3. Python version and virtual environment location
+4. PDF Toolkit access URL
+5. Browser accessibility and PDF processing test results
+6. Operating system auto-start configuration status
+7. Any remaining issues or items requiring additional verification
 
-Base all installation, configuration, and troubleshooting procedures on the repository's actual documentation and source code.
+Base all installation, configuration, and troubleshooting procedures on the repository's actual documentation and source code. Clearly distinguish successfully verified steps from those that could not be tested.
